@@ -1,7 +1,7 @@
 const { Client } = require('pg');
 
 const client = new Client({
-    user: process.env.PGUSER,
+    user: process.env.PGUSERNAME,
     password: process.env.PGPASSWORD,
     database: process.env.PGDATABASE,
     host: process.env.PGHOST,
